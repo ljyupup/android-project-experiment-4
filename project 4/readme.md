@@ -256,7 +256,7 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 
 ```
 
-![image-20250507091947102](img\image-13.png)
+![image-20250507091947102](img/image-13.png)
 
 看起来像指数增长，但是1990年代初期出现急剧的下滑，对应当时经济衰退和网络泡沫。再来看看收入曲线。
 
@@ -267,7 +267,7 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 
 ```
 
-![image-20250507091937509](img\image-14.png)
+![image-20250507091937509](img/image-14.png)
 
 公司收入曲线并没有出现急剧下降，可能是由于财务会计的处理。对数据结果进行标准差处理。
 
@@ -286,7 +286,7 @@ fig.tight_layout()
 
 ```
 
-![image-20250507092116981](img\image-15.png)
+![image-20250507092116981](img/image-15.png)
 
 可见，不同公司之间的收入和利润差距惊人，那么到底前10%和后10%的公司谁的波动更大了？此外，还有很多有价值的信息值得进一步挖掘。
 
@@ -311,4 +311,4 @@ ax.legend()
 
 需要复用同一个 `ax`（坐标轴）并调用 `plot()` 两次，分别传入利润和收入数据。
 
-![image-20250507092529331](img\image-16.png)
+![image-20250507092529331](img/image-16.png)
